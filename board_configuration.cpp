@@ -115,7 +115,6 @@ static Gpio OUTPUTS[] = {
 	Gpio::MM100_INJ7,	  // B7 Low Side output 1
 	Gpio::MM100_OUT_PWM2, // B16 Low Side output 4 / Fuel Pump
 	Gpio::MM100_OUT_PWM1, // B17 Low Side output 3
-
 	// high sides
 	Gpio::MM100_IGN3, // B12 Coil 3
 	Gpio::MM100_IGN2, // B14 Coil 2
