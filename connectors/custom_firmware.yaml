@@ -88,7 +88,7 @@ pins:
 
   - pin: E3
     meta: MM100_IN_D1
-    class: event_input
+    class: event_inputs
     ts_name: E3 - CMP 1 / HALL Input
 
   - pin: F2
