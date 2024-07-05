@@ -9,6 +9,16 @@ include $(BOARD_DIR)/meta-info.env
 
 # reduce memory usage monitoring
 DDEFS += -DRAM_UNUSED_SIZE=100
+DDEFS += -DEFI_MAIN_RELAY_CONTROL=FALSE
+DDEFS += -DEFI_SOFTWARE_KNOCK=FALSE -DSTM32_ADC_USE_ADC3=TRUE
+DDEFS += -DDIAG_5VP_PIN=Gpio::MM100_SPI3_MOSI
+DDEFS += -DEFI_ELECTRONIC_THROTTLE_BODY=FALSE
+
+ONBOARD_MEMS_TYPE=LIS2DH12
+
+include $(BOARDS_DIR)/hellen/hellen-common100.mk
+
+DDEFS += $(PRIMARY_COMMUNICATION_PORT_USART2)
 
 # assign critical LED to a non-existent pin if you do not have it on your board
 # good old PD14 is still the default value
