@@ -1,3 +1,5 @@
+meta: config/boards/hellen_mm100_meta.h
+
 pins:
   - pin: A1
     meta: MM100_IGN1
