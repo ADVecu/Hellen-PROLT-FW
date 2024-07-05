@@ -23,7 +23,7 @@ pins:
     class: analog_inputs
     ts_name: B2 - IAT
 
-  - id: MM100_IN_IAT_ANALOG
+  - id: MM100_IN_CLT_ANALOG
     class: analog_inputs
     ts_name: B3 - CLT
 
