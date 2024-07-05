@@ -93,7 +93,7 @@ pins:
 
   - pin: F2
     meta: MM100_UART8_RX
-    class: event_input
+    class: event_inputs
     ts_name: F2 - Trigger Input
 
   - pin: G1
