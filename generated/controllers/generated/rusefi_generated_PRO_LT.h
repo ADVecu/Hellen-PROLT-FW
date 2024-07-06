@@ -1185,8 +1185,8 @@
 #define operation_mode_e_FOUR_STROKE_TWELVE_TIMES_CRANK_SENSOR 6
 #define operation_mode_e_OM_NONE 0
 #define operation_mode_e_TWO_STROKE 3
-#define output_pin_e_enum 0="NONE",47="A1 - Coil 1",71="A2 - Coil 2",70="A3 - Coil 3",52="A4 - Tach Output",60="B1 - LS Output 1 / Injector 4",61="C1 Injector 3",11="D1 - Injector 2",53="E1 - Injector 1",63="G3 - LS Output 2",40="G4 - LS Output 3"
-#define output_pin_e_fullenum "NONE","INVALID","INVALID","INVALID","INVALID","INVALID","INVALID","INVALID","INVALID","INVALID","INVALID","D1 - Injector 2","INVALID","INVALID","INVALID","INVALID","INVALID","INVALID","INVALID","INVALID","INVALID","INVALID","INVALID","INVALID","INVALID","INVALID","INVALID","INVALID","INVALID","INVALID","INVALID","INVALID","INVALID","INVALID","INVALID","INVALID","INVALID","INVALID","INVALID","INVALID","G4 - LS Output 3","INVALID","INVALID","INVALID","INVALID","INVALID","INVALID","A1 - Coil 1","INVALID","INVALID","INVALID","INVALID","A4 - Tach Output","E1 - Injector 1","INVALID","INVALID","INVALID","INVALID","INVALID","INVALID","B1 - LS Output 1 / Injector 4","C1 Injector 3","INVALID","G3 - LS Output 2","INVALID","INVALID","INVALID","INVALID","INVALID","INVALID","A3 - Coil 3","A2 - Coil 2"
+#define output_pin_e_enum 0="NONE",47="A1 - Coil 1",71="A2 - Coil 2",70="A3 - Coil 3",52="A4 - Tach Output",60="B1 - LS Output 1 / Injector 4",61="C1 - Injector 3",11="D1 - Injector 2",53="E1 - Injector 1",63="G3 - LS Output 2",40="G4 - LS Output 3"
+#define output_pin_e_fullenum "NONE","INVALID","INVALID","INVALID","INVALID","INVALID","INVALID","INVALID","INVALID","INVALID","INVALID","D1 - Injector 2","INVALID","INVALID","INVALID","INVALID","INVALID","INVALID","INVALID","INVALID","INVALID","INVALID","INVALID","INVALID","INVALID","INVALID","INVALID","INVALID","INVALID","INVALID","INVALID","INVALID","INVALID","INVALID","INVALID","INVALID","INVALID","INVALID","INVALID","INVALID","G4 - LS Output 3","INVALID","INVALID","INVALID","INVALID","INVALID","INVALID","A1 - Coil 1","INVALID","INVALID","INVALID","INVALID","A4 - Tach Output","E1 - Injector 1","INVALID","INVALID","INVALID","INVALID","INVALID","INVALID","B1 - LS Output 1 / Injector 4","C1 - Injector 3","INVALID","G3 - LS Output 2","INVALID","INVALID","INVALID","INVALID","INVALID","INVALID","A3 - Coil 3","A2 - Coil 2"
 #define PACK_ADD_TEMPERATURE 40
 #define PACK_MULT_AFR 1000
 #define PACK_MULT_AFR_CFG 10
@@ -1289,7 +1289,7 @@
 #define show_microRusEFI_presets false
 #define show_Proteus_presets false
 #define show_test_presets false
-#define SIGNATURE_HASH 3514048032
+#define SIGNATURE_HASH 2072137973
 #define SIMULATOR_TUNE_BIN_FILE_NAME "generated/simulator_tune_image.bin"
 #define SIMULATOR_TUNE_BIN_FILE_NAME_PREFIX "generated/simulator_tune_image"
 #define SIMULATOR_TUNE_BIN_FILE_NAME_SUFFIX ".bin"
@@ -1700,7 +1700,7 @@
 #define ts_show_vvt_output true
 #define ts_show_wbo_canbus_index true
 #define ts_show_wbo_canbus_set_index true
-#define TS_SIGNATURE "rusEFI main.2024.07.06.PRO_LT.3514048032"
+#define TS_SIGNATURE "rusEFI main.2024.07.06.PRO_LT.2072137973"
 #define TS_SIMULATE_CAN '>'
 #define TS_SIMULATE_CAN_char >
 #define TS_SINGLE_WRITE_COMMAND 'W'
