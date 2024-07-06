@@ -44,7 +44,7 @@ pins:
   - pin: C1
     meta: MM100_INJ3
     class: outputs
-    ts_name: C1 Injector 3
+    ts_name: C1 - Injector 3
 
   - pin: C2
     meta: MM100_IN_TPS_ANALOG

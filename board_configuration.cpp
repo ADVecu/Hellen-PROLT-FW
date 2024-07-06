@@ -79,19 +79,19 @@ void setBoardDefaultConfiguration()
 
 	engineConfiguration->globalTriggerAngleOffset = 0;
 
-	engineConfiguration->injectionMode = IM_BATCH;
-
-	// engineConfiguration->enableSoftwareKnock = false;
-
 	engineConfiguration->canTxPin = Gpio::MM100_CAN_TX;
 	engineConfiguration->canRxPin = Gpio::MM100_CAN_RX;
 
 	engineConfiguration->fanPin = Gpio::MM100_OUT_PWM1;
 	engineConfiguration->fuelPumpPin = Gpio::MM100_OUT_PWM2;
 
+	engineConfiguration->tachOutputPin = Gpio::MM100_INJ5;
+
 	// "required" hardware is done - set some reasonable defaults
 	setupDefaultSensorInputs();
 	engineConfiguration->enableVerboseCanTx = true;
+
+	engineConfiguration->injectionMode = IM_BATCH;
 
 	engineConfiguration->etbFunctions[0] = DC_None;
 
