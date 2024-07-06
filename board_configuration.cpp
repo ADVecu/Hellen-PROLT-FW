@@ -79,7 +79,9 @@ void setBoardDefaultConfiguration()
 
 	engineConfiguration->globalTriggerAngleOffset = 0;
 
-	engineConfiguration->enableSoftwareKnock = false;
+	engineConfiguration->injectionMode = IM_BATCH;
+
+	// engineConfiguration->enableSoftwareKnock = false;
 
 	engineConfiguration->canTxPin = Gpio::MM100_CAN_TX;
 	engineConfiguration->canRxPin = Gpio::MM100_CAN_RX;
