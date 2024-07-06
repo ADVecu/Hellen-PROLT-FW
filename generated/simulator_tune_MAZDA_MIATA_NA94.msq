@@ -4722,7 +4722,7 @@ end</constant>
          0.0
 </constant>
     </page>
-    <versionInfo firmwareInfo="20240617" nPages="1" signature="rusEFI main.2024.07.06.PRO_LT.4229378313" version="5.0"/>
+    <versionInfo firmwareInfo="20240617" nPages="1" signature="rusEFI main.2024.07.06.PRO_LT.3514048032" version="5.0"/>
     <bibliography author="rusEFI 20240617" writeDate="date"/>
     <settings/>
     <userComments/>
