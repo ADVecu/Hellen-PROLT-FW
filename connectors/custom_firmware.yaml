@@ -92,7 +92,7 @@ pins:
     ts_name: E3 - CMP 1 / HALL Input
 
   - pin: F2
-    meta: MM100_UART8_RX
+    meta: MM100_UART8_TX
     class: event_inputs
     ts_name: F2 - Trigger Input
 
