@@ -54,8 +54,8 @@
 #define adc_channel_e_EFI_ADC_ERROR 50
 #define adc_channel_e_EFI_ADC_NONE 0
 #define adc_channel_e_EFI_ADC_TOTAL_CHANNELS 49
-#define adc_channel_e_enum 0="NONE",14="B2 - IAT",13="B3 - CLT",11="B4 - MAP Input",6="Battery Voltage Sense",5="C2 - TPS",1="C3 - Aux Analog Input 1",2="C4 - Aux Analog Input 2"
-#define adc_channel_e_fullenum "NONE","C3 - Aux Analog Input 1","C4 - Aux Analog Input 2","INVALID","INVALID","C2 - TPS","Battery Voltage Sense","INVALID","INVALID","INVALID","INVALID","B4 - MAP Input","INVALID","B3 - CLT","B2 - IAT"
+#define adc_channel_e_enum 0="NONE",14="B2 - IAT",13="B3 - CLT",11="B4 - MAP Input",5="C2 - TPS",1="C3 - Aux Analog Input 1",2="C4 - Aux Analog Input 2"
+#define adc_channel_e_fullenum "NONE","C3 - Aux Analog Input 1","C4 - Aux Analog Input 2","INVALID","INVALID","C2 - TPS","INVALID","INVALID","INVALID","INVALID","INVALID","B4 - MAP Input","INVALID","B3 - CLT","B2 - IAT"
 #define ADC_CHANNEL_NONE 0
 #define afr_sensor_s_size 20
 #define air_pressure_sensor_config_s_size 12
@@ -1289,7 +1289,7 @@
 #define show_microRusEFI_presets false
 #define show_Proteus_presets false
 #define show_test_presets false
-#define SIGNATURE_HASH 2072137973
+#define SIGNATURE_HASH 1007963658
 #define SIMULATOR_TUNE_BIN_FILE_NAME "generated/simulator_tune_image.bin"
 #define SIMULATOR_TUNE_BIN_FILE_NAME_PREFIX "generated/simulator_tune_image"
 #define SIMULATOR_TUNE_BIN_FILE_NAME_SUFFIX ".bin"
@@ -1619,7 +1619,7 @@
 #define ts_show_cylinder_bank true
 #define ts_show_debug_mode false
 #define ts_show_ego2 true
-#define ts_show_egt true
+#define ts_show_egt false
 #define ts_show_etb true
 #define ts_show_etb_pins true
 #define ts_show_exhaust_vvt true
@@ -1664,7 +1664,7 @@
 #define ts_show_second_bank true
 #define ts_show_software_knock false
 #define ts_show_speedo_settings true
-#define ts_show_spi true
+#define ts_show_spi false
 #define ts_show_spi1_enable true
 #define ts_show_spi1_pins true
 #define ts_show_spi2_enable true
@@ -1700,7 +1700,7 @@
 #define ts_show_vvt_output true
 #define ts_show_wbo_canbus_index true
 #define ts_show_wbo_canbus_set_index true
-#define TS_SIGNATURE "rusEFI main.2024.07.07.PRO_LT.2072137973"
+#define TS_SIGNATURE "rusEFI main.2024.07.07.PRO_LT.1007963658"
 #define TS_SIMULATE_CAN '>'
 #define TS_SIMULATE_CAN_char >
 #define TS_SINGLE_WRITE_COMMAND 'W'
