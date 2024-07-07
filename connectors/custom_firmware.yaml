@@ -96,11 +96,6 @@ pins:
     class: event_inputs
     ts_name: F2 - Trigger Input
 
-  - pin: G1
-    meta: MM100_IN_VBATT
-    class: analog_inputs
-    ts_name: Battery Voltage Sense
-
   - pin: G3
     meta: MM100_OUT_PWM1
     class: outputs
