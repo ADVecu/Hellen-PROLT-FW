@@ -477,7 +477,7 @@
 #define ETB_COUNT 2
 #define ETB_HW_MAX_FREQUENCY 3000
 #define FLASH_DATA_VERSION 20016
-#define FRONTEND_TITLE_BAR_NAME "PRO-LT"
+#define FRONTEND_TITLE_BAR_NAME "rusEFI"
 #define fuel_cyl_trim_s_size 16
 #define FUEL_LEVEL_TABLE_COUNT 8
 #define FUEL_LOAD_COUNT 16
@@ -1059,7 +1059,6 @@
 #define HPFP_DEADTIME_SIZE 8
 #define HPFP_LOBE_PROFILE_SIZE 16
 #define HPFP_TARGET_SIZE 10
-#define HW_MAX_ADC_INDEX 17
 #define IAC_PID_MULT_SIZE 8
 #define IAT_CURVE_SIZE 16
 #define IDLE_ADVANCE_CURVE_SIZE 8
@@ -1289,7 +1288,7 @@
 #define show_microRusEFI_presets false
 #define show_Proteus_presets false
 #define show_test_presets false
-#define SIGNATURE_HASH 1789145045
+#define SIGNATURE_HASH 899490849
 #define SIMULATOR_TUNE_BIN_FILE_NAME "generated/simulator_tune_image.bin"
 #define SIMULATOR_TUNE_BIN_FILE_NAME_PREFIX "generated/simulator_tune_image"
 #define SIMULATOR_TUNE_BIN_FILE_NAME_SUFFIX ".bin"
@@ -1700,7 +1699,7 @@
 #define ts_show_vvt_output true
 #define ts_show_wbo_canbus_index true
 #define ts_show_wbo_canbus_set_index true
-#define TS_SIGNATURE "rusEFI main.2024.07.14.PRO_LT.1789145045"
+#define TS_SIGNATURE "rusEFI main.2024.07.15.PRO_LT.899490849"
 #define TS_SIMULATE_CAN '>'
 #define TS_SIMULATE_CAN_char >
 #define TS_SINGLE_WRITE_COMMAND 'W'
