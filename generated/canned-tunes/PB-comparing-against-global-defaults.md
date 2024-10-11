@@ -7,6 +7,8 @@
     engineConfiguration->injectionTimingMode = Center;
     // default "Single Coil"
     engineConfiguration->ignitionMode = IM_INDIVIDUAL_COILS;
+    // default 2.0
+    engineConfiguration->displacement = 1.6;
     // default 0.0
     engineConfiguration->globalTriggerAngleOffset = 115;
     // default "Inactive"
@@ -123,8 +125,6 @@
     engineConfiguration->startUpFuelPumpDuration = 2;
     // default "false"
     engineConfiguration->enableSoftwareKnock = true;
-    // default 0.0
-    engineConfiguration->knockBandCustom = 14.8;
     // default 87.5
     engineConfiguration->cylinderBore = 77;
     // default "false"
@@ -179,6 +179,8 @@
     engineConfiguration->etb.dFactor = 0.1855;
     // default "false"
     engineConfiguration->disableEtbWhenEngineStopped = true;
+    // default 1.0
+    engineConfiguration->etbJamTimeout = 0;
     // default "Launch Button"
     engineConfiguration->launchActivationMode = CLUTCH_INPUT_LAUNCH;
     // default "false"
@@ -197,7 +199,6 @@
 
 	pbcannedknockBaseNoise();
 	pbcannedinjector_battLagCorr();
-	pbcannedmafDecodingBins();
 	pbcannedcltTimingBins();
 	pbcannedcltTimingExtra();
 	pbcannedcltIdleCorrBins();
@@ -211,14 +212,6 @@
 	pbcannedscriptTable4();
 	pbcannedignitionRpmBins();
 	pbcannedignitionTable();
-	pbcannedignBlends1_rpmBins();
-	pbcannedignBlends2_rpmBins();
-	pbcannedignBlends3_rpmBins();
-	pbcannedignBlends4_rpmBins();
-	pbcannedveBlends1_rpmBins();
-	pbcannedveBlends2_rpmBins();
-	pbcannedveBlends3_rpmBins();
-	pbcannedveBlends4_rpmBins();
 	pbcannedveTable();
 	pbcannedinjectionPhase();
 	pbcannedmaxKnockRetardRpmBins();

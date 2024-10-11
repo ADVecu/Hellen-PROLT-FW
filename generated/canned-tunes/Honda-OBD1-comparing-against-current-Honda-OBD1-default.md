@@ -69,6 +69,8 @@
     engineConfiguration->rpmSoftLimitTimingRetard = 0;
     // default 1.0
     engineConfiguration->tpsAccelFractionDivisor = 0;
+    // default 1.0
+    engineConfiguration->etbJamTimeout = 0;
     // default 60.0
     engineConfiguration->gppwm[0].onAboveDuty = 80;
     // default 50.0
@@ -77,20 +79,10 @@
 
 	cannedinjector_battLagCorrBins();
 	cannedinjector_battLagCorr();
-	cannedmafDecodingBins();
-	cannedcltIdleCorr();
 	cannedtractionControlSlipBins();
 	cannedboostTableOpenLoop();
 	cannedscriptTable4();
 	cannedignitionTable();
-	cannedignBlends1_rpmBins();
-	cannedignBlends2_rpmBins();
-	cannedignBlends3_rpmBins();
-	cannedignBlends4_rpmBins();
-	cannedveBlends1_rpmBins();
-	cannedveBlends2_rpmBins();
-	cannedveBlends3_rpmBins();
-	cannedveBlends4_rpmBins();
 	cannedveTable();
 	cannedlambdaTable();
 	cannedgppwm1_rpmBins();

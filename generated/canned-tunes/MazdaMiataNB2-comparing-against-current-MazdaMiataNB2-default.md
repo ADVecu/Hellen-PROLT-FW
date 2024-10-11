@@ -167,8 +167,6 @@
     engineConfiguration->stft.deadband = 0;
     // default 90.0
     engineConfiguration->auxPid[1].maxValue = 0;
-    // default 14.0
-    engineConfiguration->targetVBatt = 14.19995;
     // default 3.0
     engineConfiguration->vssFilterReciprocal = 5;
     // default 538.0
@@ -198,7 +196,7 @@
     // default "500kbps"
     engineConfiguration->can2BaudRate = B100KBPS;
     // default "Executor"
-    engineConfiguration->debugMode = DBG_TPS_ACCEL;
+    engineConfiguration->debugMode = DBG_1;
     // default 300.0
     engineConfiguration->boostCutPressure = 0;
     // default 250.0
@@ -295,12 +293,10 @@
 	nb2cannedvrThreshold1_values();
 	nb2cannedvrThreshold2_rpmBins();
 	nb2cannedvrThreshold2_values();
-	nb2cannedmafDecodingBins();
 	nb2cannedcltFuelCorr();
 	nb2cannedcrankingFuelCoef();
 	nb2cannedcrankingFuelCoefE100();
 	nb2cannedcltRevLimitRpmBins();
-	nb2cannedcltIdleCorrBins();
 	nb2cannedcltIdleCorr();
 	nb2cannedcltCrankingCorr();
 	nb2cannedcltIdleRpmBins();
@@ -313,7 +309,6 @@
 	nb2cannedhpfpDeadtimeVoltsBins();
 	nb2cannedtpsTpsAccelTable();
 	nb2cannedboostRpmBins();
-	nb2cannedboostTpsBins();
 	nb2cannedboostTableOpenLoop();
 	nb2cannedboostTableClosedLoop();
 	nb2cannedvvtTable1RpmBins();

@@ -161,6 +161,8 @@
     engineConfiguration->boostControlMinTps = 0;
     // default 110.0
     engineConfiguration->boostControlMinMap = 0;
+    // default 1.0
+    engineConfiguration->etbJamTimeout = 0;
     // default "false"
     engineConfiguration->coastingFuelCutEnabled = true;
     // default 60.0
@@ -211,7 +213,6 @@
 	cannedmap_samplingWindow();
 	cannedvrThreshold1_rpmBins();
 	cannedvrThreshold2_rpmBins();
-	cannedmafDecodingBins();
 	cannedcltFuelCorr();
 	cannedcrankingFuelCoef();
 	cannedcltRevLimitRpmBins();

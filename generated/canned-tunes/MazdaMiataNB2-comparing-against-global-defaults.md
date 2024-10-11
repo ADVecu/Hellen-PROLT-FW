@@ -11,7 +11,7 @@
     engineConfiguration->ignitionMode = IM_WASTED_SPARK;
     // default 0.0
     engineConfiguration->fixedTiming = 10;
-    // default 1.6
+    // default 2.0
     engineConfiguration->displacement = 1.838997;
     // default 0.0
     engineConfiguration->globalTriggerAngleOffset = 76;
@@ -183,14 +183,12 @@
     engineConfiguration->tachPulsePerRev = 2;
     // default "false"
     engineConfiguration->enableSoftwareKnock = true;
-    // default 0.0
-    engineConfiguration->knockBandCustom = 13.80627;
+    // default 87.5
+    engineConfiguration->cylinderBore = 83;
     // default 20.0
     engineConfiguration->knockRetardAggression = 0;
     // default 3.0
     engineConfiguration->knockRetardReapplyRate = 0;
-    // default 87.5
-    engineConfiguration->cylinderBore = 83;
     // default 35.0
     engineConfiguration->stft.maxOverrunLoad = 30;
     // default "false"
@@ -213,8 +211,6 @@
     engineConfiguration->auxPid[1].maxValue = 0;
     // default "false"
     engineConfiguration->isAlternatorControlEnabled = true;
-    // default 14.0
-    engineConfiguration->targetVBatt = 14.19995;
     // default 0.0
     engineConfiguration->alternatorControl.offset = 20;
     // default 30.0
@@ -250,7 +246,7 @@
     // default "500kbps"
     engineConfiguration->can2BaudRate = B100KBPS;
     // default "Executor"
-    engineConfiguration->debugMode = DBG_TPS_ACCEL;
+    engineConfiguration->debugMode = DBG_1;
     // default 7000.0
     engineConfiguration->rpmHardLimit = 7200;
     // default 300.0
@@ -375,7 +371,6 @@
 	nb2cannedhpfpDeadtimeVoltsBins();
 	nb2cannedtpsTpsAccelTable();
 	nb2cannedboostRpmBins();
-	nb2cannedboostTpsBins();
 	nb2cannedboostTableOpenLoop();
 	nb2cannedboostTableClosedLoop();
 	nb2cannedvvtTable1RpmBins();
